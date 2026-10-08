@@ -1,0 +1,6 @@
+{
+  "name": "Arah Pulau - Wisata Pulau Tidung & Tiket Kapal",
+  "description": "Platform wisata khusus Pulau Tidung dengan fitur pencarian destinasi, pemesanan tiket mudah, dan notifikasi e-tiket email instan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
