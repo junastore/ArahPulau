@@ -66,16 +66,6 @@ export const DestinationList: React.FC<DestinationListProps> = ({
             <span className="text-[11px] font-bold text-cyan-700 tracking-widest uppercase">
               Eksplorasi 5 Spot Pilihan
             </span>
-            {onOpenAssetManager && (
-              <button
-                type="button"
-                onClick={() => onOpenAssetManager('destination')}
-                className="text-[10px] text-cyan-700 hover:text-cyan-900 font-bold bg-cyan-50 px-2 py-0.5 rounded-full flex items-center gap-1 cursor-pointer border border-cyan-200"
-              >
-                <Camera className="w-3 h-3" />
-                <span>Menu Ganti Foto</span>
-              </button>
-            )}
           </div>
           <h2 className="font-heading text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight mt-1">
             Destinasi & Penginapan <span className="text-cyan-700">Pulau Tidung</span>
